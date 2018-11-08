@@ -19,3 +19,10 @@
   - **[3.2 Komunikacija sa modulom](30-moduli.md#32-komunikacija-sa-modulom)**
     - **[3.2.1 C funkije i fops struktura](30-moduli.md#321-c-funkije-i-fops-struktura)**
     - **[3.3.2 Komunikacija iz operativnog sistema](30-moduli.md#332-komunikacija-iz-operativnog-sistema)**
+
+### **[4. Buildroot](40-buildroot.md)**
+  - **[4.1 Preuzimanje koda](40-buildroot.md#41-preuzimanje-koda)**
+  - **[4.2 Konfigurisanje](40-buildroot.md#42-konfigurisanje)**
+  - **[4.3 Primena patch-a](40-buildroot.md#43-primena-patch-a)**
+  - **[4.4 Dodavanje u PATH](40-buildroot.md#44-dodavanje-u-path)**
+  
