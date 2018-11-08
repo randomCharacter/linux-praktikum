@@ -54,10 +54,11 @@ Nakon uspešnog bildovanja kernela potrebno je prebaciti fajlove **zImage** i **
 
 Sada je potrebno povući date fajlove iz RPI U-boot-a.
 
-Prvo je potrebno podesiti IP adrese servera i klijenta sledećim komandama
+Prvo je potrebno podesiti IP adrese servera i klijenta, kao i eth adresu sledećim komandama
 ```
 setenv ipaddr <IP adresa rpi>
 setenv serverip <IP adresa pc>
+setenv ethaddr <eth adresa rpi>
 ```  
 Nakon postavljanja env varijabli, moguće je sačuvati ih komandom `saveenv`, kako bi bili dostupni i nakon reboot-a.
 
