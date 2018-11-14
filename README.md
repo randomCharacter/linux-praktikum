@@ -12,6 +12,15 @@
     - **[1.2.3 NFS Kernel server](10-kernel.md#122-tftp-server)**
     - **[1.2.4 Bootovanje sistema sa Raspberry-ju](10-kernel.md#124-bootovanje-sistema-sa-raspberry-ju)**
 
+### **[2. Busybox](20-busybox.md)**
+  - **[2.1 Bildovanje busybox-a](20-busybox.md#21-bildovanje-busybox-a)**
+  - **[2.2 Dodavanje applet-a](20-busybox.md#22-dodavanje-applet-a)**
+  - **[2.3 Dodavanje potrebnih uređaja](20-busybox.md#23-dodavanje-potrebnih-uređaja)**
+  - **[2.4 proc i sys direktorijumi](20-busybox.md#24-proc-i-sys-direktorijumi)**
+    - **[2.4.1 Mountovanje](20-busybox.md#241-mountovanje)**
+    - **[2.4.2 Automatizacija procesa](20-busybox.md#242-automatizacija-procesa)**
+  - **[Initramfs](20-busybox.md#25-initramfs)**
+
 ### **[3. Moduli](30-moduli.md)**
   - **[3.1 Komande za rad sa modulima](30-moduli.md#31-komande-za-rad-sa-modulima)**
     - **[3.1.1 Sistemske komande](30-moduli.md#311-sistemske-komande)**
@@ -25,4 +34,3 @@
   - **[4.2 Konfigurisanje](40-buildroot.md#42-konfigurisanje)**
   - **[4.3 Primena patch-a](40-buildroot.md#43-primena-patch-a)**
   - **[4.4 Dodavanje u PATH](40-buildroot.md#44-dodavanje-u-path)**
-  
