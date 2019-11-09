@@ -69,17 +69,17 @@ Prvo je potrebno napraviti **dev** folder, sledećom komandom:
 
 ### tty uređaji
 ```
-mknode <putanja do rfs-a>/dev/tty1 c 4 1
-mknode <putanja do rfs-a>/dev/tty2 c 4 2
-mknode <putanja do rfs-a>/dev/tty3 c 4 3
-mknode <putanja do rfs-a>/dev/tty4 c 4 4
+mknod <putanja do rfs-a>/dev/tty1 c 4 1
+mknod <putanja do rfs-a>/dev/tty2 c 4 2
+mknod <putanja do rfs-a>/dev/tty3 c 4 3
+mknod <putanja do rfs-a>/dev/tty4 c 4 4
 ```
 
 ### ttyAMA0
-`mknode <putanja do rfs-a>/dev/ttyAMA0 c 204 64`
+`mknod <putanja do rfs-a>/dev/ttyAMA0 c 204 64`
 
 ### console
-`mknode <putanja do rfs-a>/dev/console c 5 1`
+`mknod <putanja do rfs-a>/dev/console c 5 1`
 
 ## 2.4 proc i sys direktorijumi
 
